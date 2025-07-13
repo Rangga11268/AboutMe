@@ -33,13 +33,13 @@ export const listTools = [
     ket: "Framework",
     dad: "200",
   },
-  {
-    id: 3,
-    gambar: Tools3,
-    nama: "Next JS",
-    ket: "Framework",
-    dad: "300",
-  },
+  // {
+  //   id: 3,
+  //   gambar: Tools3,
+  //   nama: "Next JS",
+  //   ket: "Framework",
+  //   dad: "300",
+  // },
   {
     id: 4,
     gambar: Tools4,
@@ -75,13 +75,13 @@ export const listTools = [
     ket: "Repository",
     dad: "800",
   },
-  {
-    id: 9,
-    gambar: Tools9,
-    nama: "Adobe Illustrator",
-    ket: "Design App",
-    dad: "900",
-  },
+  // {
+  //   id: 9,
+  //   gambar: Tools9,
+  //   nama: "Adobe Illustrator",
+  //   ket: "Design App",
+  //   dad: "900",
+  // },
   {
     id: 10,
     gambar: Tools10,
