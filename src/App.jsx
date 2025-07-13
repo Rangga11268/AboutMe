@@ -50,6 +50,47 @@ export default function App() {
           className="w-[500px] md:ml-auto rounded-2xl"
         />
       </div>
+      <div>
+        {/* Tentang kami  */}
+        <div className="tentang mt-32 py-10">
+          <div className="xl:w-2/3 lg:w3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg">
+            <img
+              src={DataImage.HeroImage}
+              alt="Hero"
+              className="w-12 rounded-md mb-10 sm:hidden"
+            />
+            <p className="text-base/loose mb-10">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Assumenda doloribus modi earum nemo magni nisi voluptatum
+              aspernatur. Rerum modi dignissimos et, qui ullam repudiandae
+              doloribus magni cum laborum magnam perspiciatis, dolorem inventore
+              maiores quia amet nostrum eos quibusdam. Esse, nesciunt.
+            </p>
+            <div className="flex items-center justify-between">
+              <img
+                src={DataImage.HeroImage}
+                alt="Hero"
+                className="w-12 rounded-md sm:block hidden"
+              />
+              <div className="flex items-center gap-6">
+                <div>
+                  <h1 className="text-4xl mb-1">
+                    45<span className="text-violet-500">+</span>
+                  </h1>
+                  <p>Project Selesai</p>
+                </div>
+                <div>
+                  <h1 className="text-4xl mb-1">
+                    4<span className="text-violet-500">+</span>
+                  </h1>
+                  <p>Tahun Pengalaman</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Tentang kami end */}
+      </div>
     </>
   );
 }
