@@ -32,7 +32,7 @@ export default function Navbar() {
         </h1>
       </div>
       <ul
-        className={`menu flex items-center sm:gap-10 gap-4 md:static fixed left-1/2 
+        className={`menu flex items-center sm:gap-10 z-40 gap-4 md:static fixed left-1/2 
         -translate-x-1/2 md:-translate-x-0 md:opacity-100 bg-white/30 backdrop-blur-md p-4 rounded-br-2xl rounded-bl-2xl md:bg-transparent transition-all
          md:transition-none ${
            active ? "top-0 opacity-100" : "-top-0 opacity-0"
