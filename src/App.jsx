@@ -40,7 +40,7 @@ export default function App() {
             </a>
             <a
               className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600"
-              href="#"
+              href="#project"
             >
               Lihat Project <i className="ri-arrow-down-line ri-lg"></i>
             </a>
@@ -55,7 +55,7 @@ export default function App() {
       </div>
       <div>
         {/* Tentang kami  */}
-        <div className="tentang mt-32 py-10">
+        <div className="tentang mt-32 py-10" id="about">
           <div
             className="xl:w-2/3 lg:w3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg"
             data-aos="fade-up"
@@ -145,7 +145,7 @@ export default function App() {
         {/* Tentang kami end */}
 
         {/* Proyek  */}
-        <div className="project mt-32 py-10">
+        <div className="project mt-32 py-10" id="project">
           <h1
             className="text-center text-4xl font-bold mb-2"
             data-aos="fade-up"
@@ -204,7 +204,7 @@ export default function App() {
 
         {/* Kontak  */}
 
-        <div className="kontak mt-32 sm:p-10 p-0">
+        <div className="kontak mt-32 sm:p-10 p-0" id="contact">
           <h1
             className="text-4xl  mb-2 font-bold text-center"
             data-aos="fade-up"
